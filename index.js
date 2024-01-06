@@ -133,7 +133,7 @@ function achGrant(ach) {
   alertify.notify(`<b class="among">Achievement unlocked!</b><br>${document.getElementById(ach).getElementsByTagName("b")[0].innerHTML}`, "warning", 5)
 
 }
-function achCheck() {a
+function achCheck() {
   //oh god.
   if (announcer.coins >= 1) achGrant("achievement_announce");
   if (announcer.coins >= 69) achGrant("achievement_nice");
