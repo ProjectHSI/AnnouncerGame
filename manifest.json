@@ -27,13 +27,13 @@
   ],
   "icons": [
     {
-      "src": "https://announcer-game.notsudake.repl.co/assets/announcerbig.png",
+      "src": "https://projecthsi.github.io/AnnouncerGame/assets/announcerbig.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/favicon.ico",
+      "src": "https://projecthsi.github.io/AnnouncerGame/favicon.ico",
       "type": "image/x-icon"
     }
   ],
