@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: "JetBrains Mono";
-  src: local("JetBrains Mono"), url("/assets/fonts/v2.ttf") format("truetype");
+  src: local("JetBrains Mono"), url("/AnnouncerGame/assets/fonts/v2.ttf") format("truetype");
 }
 
 * {
