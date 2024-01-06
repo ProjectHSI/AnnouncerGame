@@ -5,13 +5,13 @@
 
 @font-face {
   font-family: "Segoe UI";
-  src: local("Segoe UI"), url("/assets/fonts/v1.ttf") format("truetype");
+  src: local("Segoe UI"), url("/AnnouncerGame/assets/fonts/v1.ttf") format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Segoe UI";
-  src: local("Segoe UI Bold"), url("/assets/fonts/v1bold.ttf") format("truetype");
+  src: local("Segoe UI Bold"), url("/AnnouncerGame/assets/fonts/v1bold.ttf") format("truetype");
   font-weight: bold;
   
 }
