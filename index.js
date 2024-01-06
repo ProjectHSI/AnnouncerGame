@@ -133,7 +133,7 @@ function achGrant(ach) {
   alertify.notify(`<b class="among">Achievement unlocked!</b><br>${document.getElementById(ach).getElementsByTagName("b")[0].innerHTML}`, "warning", 5)
 
 }
-function achCheck() {
+function achCheck() {a
   //oh god.
   if (announcer.coins >= 1) achGrant("achievement_announce");
   if (announcer.coins >= 69) achGrant("achievement_nice");
@@ -174,9 +174,9 @@ function update() {
   let cost = announcer.auto_amount * 50 + 70
   let ucost = (announcer.auto_level - 1) * 125 + 150
   if (settings.new_announcer) {
-    document.getElementById('announcer').src = '/assets/announcer2.png'
+    document.getElementById('announcer').src = '/AnnouncerGame/assets/announcer2.png'
   } else {
-    document.getElementById('announcer').src = '/assets/announcer.png'
+    document.getElementById('announcer').src = '/AnnouncerGame/assets/announcer.png'
   }
   if (visible) { document.title = 'Announcer Game' } else {
     document.title = `${abbreviate(announcer.coins, 1)} coins ${announcer.level >= 100 ? `| ${abbreviate(robert.robertium, 1)} RBT` : ''}`
